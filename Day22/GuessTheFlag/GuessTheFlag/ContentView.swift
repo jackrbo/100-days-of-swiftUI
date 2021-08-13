@@ -51,13 +51,7 @@ struct ContentView: View {
                     icon: { }
                 )
                 .foregroundColor(.white)
-                Menu ("  OOOptions  \n\n"){
-                    Button("Order now", action: placeHolder)
-                    Button("Order now", action: placeHolder)
-                    Button("Order now", action: placeHolder)
-                }
-                .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                .foregroundColor(.white)
+               
                 Spacer()
             }
             .alert(isPresented: $showingScore) {
