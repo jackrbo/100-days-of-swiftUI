@@ -7,62 +7,62 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04E4871926A1B80F006574D9 /* GuessTheFlagApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E4871826A1B80F006574D9 /* GuessTheFlagApp.swift */; };
-		04E4871B26A1B80F006574D9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E4871A26A1B80F006574D9 /* ContentView.swift */; };
-		04E4871D26A1B810006574D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E4871C26A1B810006574D9 /* Assets.xcassets */; };
-		04E4872026A1B810006574D9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E4871F26A1B810006574D9 /* Preview Assets.xcassets */; };
-		04E4872B26A1B811006574D9 /* GuessTheFlagTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E4872A26A1B811006574D9 /* GuessTheFlagTests.swift */; };
-		04E4873626A1B811006574D9 /* GuessTheFlagUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E4873526A1B811006574D9 /* GuessTheFlagUITests.swift */; };
+		0B37356026CE9E73002096D0 /* Day25App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B37355F26CE9E73002096D0 /* Day25App.swift */; };
+		0B37356226CE9E73002096D0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B37356126CE9E73002096D0 /* ContentView.swift */; };
+		0B37356426CE9E89002096D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B37356326CE9E89002096D0 /* Assets.xcassets */; };
+		0B37356726CE9E89002096D0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B37356626CE9E89002096D0 /* Preview Assets.xcassets */; };
+		0B37357226CE9E8D002096D0 /* Day25Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B37357126CE9E8D002096D0 /* Day25Tests.swift */; };
+		0B37357D26CE9E8D002096D0 /* Day25UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B37357C26CE9E8D002096D0 /* Day25UITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		04E4872726A1B811006574D9 /* PBXContainerItemProxy */ = {
+		0B37356E26CE9E8D002096D0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 04E4870D26A1B80F006574D9 /* Project object */;
+			containerPortal = 0B37355426CE9E73002096D0 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 04E4871426A1B80F006574D9;
-			remoteInfo = GuessTheFlag;
+			remoteGlobalIDString = 0B37355B26CE9E73002096D0;
+			remoteInfo = Day25;
 		};
-		04E4873226A1B811006574D9 /* PBXContainerItemProxy */ = {
+		0B37357926CE9E8D002096D0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 04E4870D26A1B80F006574D9 /* Project object */;
+			containerPortal = 0B37355426CE9E73002096D0 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 04E4871426A1B80F006574D9;
-			remoteInfo = GuessTheFlag;
+			remoteGlobalIDString = 0B37355B26CE9E73002096D0;
+			remoteInfo = Day25;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04E4871526A1B80F006574D9 /* GuessTheFlag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessTheFlag.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		04E4871826A1B80F006574D9 /* GuessTheFlagApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheFlagApp.swift; sourceTree = "<group>"; };
-		04E4871A26A1B80F006574D9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		04E4871C26A1B810006574D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		04E4871F26A1B810006574D9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		04E4872126A1B810006574D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		04E4872626A1B811006574D9 /* GuessTheFlagTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuessTheFlagTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		04E4872A26A1B811006574D9 /* GuessTheFlagTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheFlagTests.swift; sourceTree = "<group>"; };
-		04E4872C26A1B811006574D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		04E4873126A1B811006574D9 /* GuessTheFlagUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuessTheFlagUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		04E4873526A1B811006574D9 /* GuessTheFlagUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheFlagUITests.swift; sourceTree = "<group>"; };
-		04E4873726A1B811006574D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B37355C26CE9E73002096D0 /* Day25.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Day25.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B37355F26CE9E73002096D0 /* Day25App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day25App.swift; sourceTree = "<group>"; };
+		0B37356126CE9E73002096D0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0B37356326CE9E89002096D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0B37356626CE9E89002096D0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0B37356826CE9E89002096D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B37356D26CE9E8D002096D0 /* Day25Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Day25Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B37357126CE9E8D002096D0 /* Day25Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day25Tests.swift; sourceTree = "<group>"; };
+		0B37357326CE9E8D002096D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B37357826CE9E8D002096D0 /* Day25UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Day25UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B37357C26CE9E8D002096D0 /* Day25UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day25UITests.swift; sourceTree = "<group>"; };
+		0B37357E26CE9E8D002096D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		04E4871226A1B80F006574D9 /* Frameworks */ = {
+		0B37355926CE9E73002096D0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		04E4872326A1B811006574D9 /* Frameworks */ = {
+		0B37356A26CE9E8D002096D0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		04E4872E26A1B811006574D9 /* Frameworks */ = {
+		0B37357526CE9E8D002096D0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -72,143 +72,143 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		04E4870C26A1B80F006574D9 = {
+		0B37355326CE9E73002096D0 = {
 			isa = PBXGroup;
 			children = (
-				04E4871726A1B80F006574D9 /* GuessTheFlag */,
-				04E4872926A1B811006574D9 /* GuessTheFlagTests */,
-				04E4873426A1B811006574D9 /* GuessTheFlagUITests */,
-				04E4871626A1B80F006574D9 /* Products */,
+				0B37355E26CE9E73002096D0 /* Day25 */,
+				0B37357026CE9E8D002096D0 /* Day25Tests */,
+				0B37357B26CE9E8D002096D0 /* Day25UITests */,
+				0B37355D26CE9E73002096D0 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		04E4871626A1B80F006574D9 /* Products */ = {
+		0B37355D26CE9E73002096D0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				04E4871526A1B80F006574D9 /* GuessTheFlag.app */,
-				04E4872626A1B811006574D9 /* GuessTheFlagTests.xctest */,
-				04E4873126A1B811006574D9 /* GuessTheFlagUITests.xctest */,
+				0B37355C26CE9E73002096D0 /* Day25.app */,
+				0B37356D26CE9E8D002096D0 /* Day25Tests.xctest */,
+				0B37357826CE9E8D002096D0 /* Day25UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		04E4871726A1B80F006574D9 /* GuessTheFlag */ = {
+		0B37355E26CE9E73002096D0 /* Day25 */ = {
 			isa = PBXGroup;
 			children = (
-				04E4871826A1B80F006574D9 /* GuessTheFlagApp.swift */,
-				04E4871A26A1B80F006574D9 /* ContentView.swift */,
-				04E4871C26A1B810006574D9 /* Assets.xcassets */,
-				04E4872126A1B810006574D9 /* Info.plist */,
-				04E4871E26A1B810006574D9 /* Preview Content */,
+				0B37355F26CE9E73002096D0 /* Day25App.swift */,
+				0B37356126CE9E73002096D0 /* ContentView.swift */,
+				0B37356326CE9E89002096D0 /* Assets.xcassets */,
+				0B37356826CE9E89002096D0 /* Info.plist */,
+				0B37356526CE9E89002096D0 /* Preview Content */,
 			);
-			path = GuessTheFlag;
+			path = Day25;
 			sourceTree = "<group>";
 		};
-		04E4871E26A1B810006574D9 /* Preview Content */ = {
+		0B37356526CE9E89002096D0 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				04E4871F26A1B810006574D9 /* Preview Assets.xcassets */,
+				0B37356626CE9E89002096D0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		04E4872926A1B811006574D9 /* GuessTheFlagTests */ = {
+		0B37357026CE9E8D002096D0 /* Day25Tests */ = {
 			isa = PBXGroup;
 			children = (
-				04E4872A26A1B811006574D9 /* GuessTheFlagTests.swift */,
-				04E4872C26A1B811006574D9 /* Info.plist */,
+				0B37357126CE9E8D002096D0 /* Day25Tests.swift */,
+				0B37357326CE9E8D002096D0 /* Info.plist */,
 			);
-			path = GuessTheFlagTests;
+			path = Day25Tests;
 			sourceTree = "<group>";
 		};
-		04E4873426A1B811006574D9 /* GuessTheFlagUITests */ = {
+		0B37357B26CE9E8D002096D0 /* Day25UITests */ = {
 			isa = PBXGroup;
 			children = (
-				04E4873526A1B811006574D9 /* GuessTheFlagUITests.swift */,
-				04E4873726A1B811006574D9 /* Info.plist */,
+				0B37357C26CE9E8D002096D0 /* Day25UITests.swift */,
+				0B37357E26CE9E8D002096D0 /* Info.plist */,
 			);
-			path = GuessTheFlagUITests;
+			path = Day25UITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		04E4871426A1B80F006574D9 /* GuessTheFlag */ = {
+		0B37355B26CE9E73002096D0 /* Day25 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 04E4873A26A1B811006574D9 /* Build configuration list for PBXNativeTarget "GuessTheFlag" */;
+			buildConfigurationList = 0B37358126CE9E8D002096D0 /* Build configuration list for PBXNativeTarget "Day25" */;
 			buildPhases = (
-				04E4871126A1B80F006574D9 /* Sources */,
-				04E4871226A1B80F006574D9 /* Frameworks */,
-				04E4871326A1B80F006574D9 /* Resources */,
+				0B37355826CE9E73002096D0 /* Sources */,
+				0B37355926CE9E73002096D0 /* Frameworks */,
+				0B37355A26CE9E73002096D0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = GuessTheFlag;
-			productName = GuessTheFlag;
-			productReference = 04E4871526A1B80F006574D9 /* GuessTheFlag.app */;
+			name = Day25;
+			productName = Day25;
+			productReference = 0B37355C26CE9E73002096D0 /* Day25.app */;
 			productType = "com.apple.product-type.application";
 		};
-		04E4872526A1B811006574D9 /* GuessTheFlagTests */ = {
+		0B37356C26CE9E8D002096D0 /* Day25Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 04E4873D26A1B811006574D9 /* Build configuration list for PBXNativeTarget "GuessTheFlagTests" */;
+			buildConfigurationList = 0B37358426CE9E8D002096D0 /* Build configuration list for PBXNativeTarget "Day25Tests" */;
 			buildPhases = (
-				04E4872226A1B811006574D9 /* Sources */,
-				04E4872326A1B811006574D9 /* Frameworks */,
-				04E4872426A1B811006574D9 /* Resources */,
+				0B37356926CE9E8D002096D0 /* Sources */,
+				0B37356A26CE9E8D002096D0 /* Frameworks */,
+				0B37356B26CE9E8D002096D0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				04E4872826A1B811006574D9 /* PBXTargetDependency */,
+				0B37356F26CE9E8D002096D0 /* PBXTargetDependency */,
 			);
-			name = GuessTheFlagTests;
-			productName = GuessTheFlagTests;
-			productReference = 04E4872626A1B811006574D9 /* GuessTheFlagTests.xctest */;
+			name = Day25Tests;
+			productName = Day25Tests;
+			productReference = 0B37356D26CE9E8D002096D0 /* Day25Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		04E4873026A1B811006574D9 /* GuessTheFlagUITests */ = {
+		0B37357726CE9E8D002096D0 /* Day25UITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 04E4874026A1B811006574D9 /* Build configuration list for PBXNativeTarget "GuessTheFlagUITests" */;
+			buildConfigurationList = 0B37358726CE9E8D002096D0 /* Build configuration list for PBXNativeTarget "Day25UITests" */;
 			buildPhases = (
-				04E4872D26A1B811006574D9 /* Sources */,
-				04E4872E26A1B811006574D9 /* Frameworks */,
-				04E4872F26A1B811006574D9 /* Resources */,
+				0B37357426CE9E8D002096D0 /* Sources */,
+				0B37357526CE9E8D002096D0 /* Frameworks */,
+				0B37357626CE9E8D002096D0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				04E4873326A1B811006574D9 /* PBXTargetDependency */,
+				0B37357A26CE9E8D002096D0 /* PBXTargetDependency */,
 			);
-			name = GuessTheFlagUITests;
-			productName = GuessTheFlagUITests;
-			productReference = 04E4873126A1B811006574D9 /* GuessTheFlagUITests.xctest */;
+			name = Day25UITests;
+			productName = Day25UITests;
+			productReference = 0B37357826CE9E8D002096D0 /* Day25UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		04E4870D26A1B80F006574D9 /* Project object */ = {
+		0B37355426CE9E73002096D0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
-					04E4871426A1B80F006574D9 = {
+					0B37355B26CE9E73002096D0 = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
-					04E4872526A1B811006574D9 = {
+					0B37356C26CE9E8D002096D0 = {
 						CreatedOnToolsVersion = 12.5.1;
-						TestTargetID = 04E4871426A1B80F006574D9;
+						TestTargetID = 0B37355B26CE9E73002096D0;
 					};
-					04E4873026A1B811006574D9 = {
+					0B37357726CE9E8D002096D0 = {
 						CreatedOnToolsVersion = 12.5.1;
-						TestTargetID = 04E4871426A1B80F006574D9;
+						TestTargetID = 0B37355B26CE9E73002096D0;
 					};
 				};
 			};
-			buildConfigurationList = 04E4871026A1B80F006574D9 /* Build configuration list for PBXProject "GuessTheFlag" */;
+			buildConfigurationList = 0B37355726CE9E73002096D0 /* Build configuration list for PBXProject "Day25" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -216,36 +216,36 @@
 				en,
 				Base,
 			);
-			mainGroup = 04E4870C26A1B80F006574D9;
-			productRefGroup = 04E4871626A1B80F006574D9 /* Products */;
+			mainGroup = 0B37355326CE9E73002096D0;
+			productRefGroup = 0B37355D26CE9E73002096D0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				04E4871426A1B80F006574D9 /* GuessTheFlag */,
-				04E4872526A1B811006574D9 /* GuessTheFlagTests */,
-				04E4873026A1B811006574D9 /* GuessTheFlagUITests */,
+				0B37355B26CE9E73002096D0 /* Day25 */,
+				0B37356C26CE9E8D002096D0 /* Day25Tests */,
+				0B37357726CE9E8D002096D0 /* Day25UITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		04E4871326A1B80F006574D9 /* Resources */ = {
+		0B37355A26CE9E73002096D0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04E4872026A1B810006574D9 /* Preview Assets.xcassets in Resources */,
-				04E4871D26A1B810006574D9 /* Assets.xcassets in Resources */,
+				0B37356726CE9E89002096D0 /* Preview Assets.xcassets in Resources */,
+				0B37356426CE9E89002096D0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		04E4872426A1B811006574D9 /* Resources */ = {
+		0B37356B26CE9E8D002096D0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		04E4872F26A1B811006574D9 /* Resources */ = {
+		0B37357626CE9E8D002096D0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -255,48 +255,48 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		04E4871126A1B80F006574D9 /* Sources */ = {
+		0B37355826CE9E73002096D0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04E4871B26A1B80F006574D9 /* ContentView.swift in Sources */,
-				04E4871926A1B80F006574D9 /* GuessTheFlagApp.swift in Sources */,
+				0B37356226CE9E73002096D0 /* ContentView.swift in Sources */,
+				0B37356026CE9E73002096D0 /* Day25App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		04E4872226A1B811006574D9 /* Sources */ = {
+		0B37356926CE9E8D002096D0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04E4872B26A1B811006574D9 /* GuessTheFlagTests.swift in Sources */,
+				0B37357226CE9E8D002096D0 /* Day25Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		04E4872D26A1B811006574D9 /* Sources */ = {
+		0B37357426CE9E8D002096D0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04E4873626A1B811006574D9 /* GuessTheFlagUITests.swift in Sources */,
+				0B37357D26CE9E8D002096D0 /* Day25UITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		04E4872826A1B811006574D9 /* PBXTargetDependency */ = {
+		0B37356F26CE9E8D002096D0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 04E4871426A1B80F006574D9 /* GuessTheFlag */;
-			targetProxy = 04E4872726A1B811006574D9 /* PBXContainerItemProxy */;
+			target = 0B37355B26CE9E73002096D0 /* Day25 */;
+			targetProxy = 0B37356E26CE9E8D002096D0 /* PBXContainerItemProxy */;
 		};
-		04E4873326A1B811006574D9 /* PBXTargetDependency */ = {
+		0B37357A26CE9E8D002096D0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 04E4871426A1B80F006574D9 /* GuessTheFlag */;
-			targetProxy = 04E4873226A1B811006574D9 /* PBXContainerItemProxy */;
+			target = 0B37355B26CE9E73002096D0 /* Day25 */;
+			targetProxy = 0B37357926CE9E8D002096D0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		04E4873826A1B811006574D9 /* Debug */ = {
+		0B37357F26CE9E8D002096D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -357,7 +357,7 @@
 			};
 			name = Debug;
 		};
-		04E4873926A1B811006574D9 /* Release */ = {
+		0B37358026CE9E8D002096D0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -412,174 +412,174 @@
 			};
 			name = Release;
 		};
-		04E4873B26A1B811006574D9 /* Debug */ = {
+		0B37358226CE9E8D002096D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"GuessTheFlag/Preview Content\"";
-				DEVELOPMENT_TEAM = 6KALSAFZJC;
+				DEVELOPMENT_ASSET_PATHS = "\"Day25/Preview Content\"";
+				DEVELOPMENT_TEAM = 9FUZ3GG7T7;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = GuessTheFlag/Info.plist;
+				INFOPLIST_FILE = Day25/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.test.GuessTheFlag;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.f-secure.jackstuff.Day25";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		04E4873C26A1B811006574D9 /* Release */ = {
+		0B37358326CE9E8D002096D0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"GuessTheFlag/Preview Content\"";
-				DEVELOPMENT_TEAM = 6KALSAFZJC;
+				DEVELOPMENT_ASSET_PATHS = "\"Day25/Preview Content\"";
+				DEVELOPMENT_TEAM = 9FUZ3GG7T7;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = GuessTheFlag/Info.plist;
+				INFOPLIST_FILE = Day25/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.test.GuessTheFlag;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.f-secure.jackstuff.Day25";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		04E4873E26A1B811006574D9 /* Debug */ = {
+		0B37358526CE9E8D002096D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9FUZ3GG7T7;
-				INFOPLIST_FILE = GuessTheFlagTests/Info.plist;
+				INFOPLIST_FILE = Day25Tests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.test.GuessTheFlagTests;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.f-secure.jackstuff.Day25Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GuessTheFlag.app/GuessTheFlag";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Day25.app/Day25";
 			};
 			name = Debug;
 		};
-		04E4873F26A1B811006574D9 /* Release */ = {
+		0B37358626CE9E8D002096D0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9FUZ3GG7T7;
-				INFOPLIST_FILE = GuessTheFlagTests/Info.plist;
+				INFOPLIST_FILE = Day25Tests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.test.GuessTheFlagTests;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.f-secure.jackstuff.Day25Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GuessTheFlag.app/GuessTheFlag";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Day25.app/Day25";
 			};
 			name = Release;
 		};
-		04E4874126A1B811006574D9 /* Debug */ = {
+		0B37358826CE9E8D002096D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9FUZ3GG7T7;
-				INFOPLIST_FILE = GuessTheFlagUITests/Info.plist;
+				INFOPLIST_FILE = Day25UITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.test.GuessTheFlagUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.f-secure.jackstuff.Day25UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = GuessTheFlag;
+				TEST_TARGET_NAME = Day25;
 			};
 			name = Debug;
 		};
-		04E4874226A1B811006574D9 /* Release */ = {
+		0B37358926CE9E8D002096D0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9FUZ3GG7T7;
-				INFOPLIST_FILE = GuessTheFlagUITests/Info.plist;
+				INFOPLIST_FILE = Day25UITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.test.GuessTheFlagUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.f-secure.jackstuff.Day25UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = GuessTheFlag;
+				TEST_TARGET_NAME = Day25;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		04E4871026A1B80F006574D9 /* Build configuration list for PBXProject "GuessTheFlag" */ = {
+		0B37355726CE9E73002096D0 /* Build configuration list for PBXProject "Day25" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				04E4873826A1B811006574D9 /* Debug */,
-				04E4873926A1B811006574D9 /* Release */,
+				0B37357F26CE9E8D002096D0 /* Debug */,
+				0B37358026CE9E8D002096D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		04E4873A26A1B811006574D9 /* Build configuration list for PBXNativeTarget "GuessTheFlag" */ = {
+		0B37358126CE9E8D002096D0 /* Build configuration list for PBXNativeTarget "Day25" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				04E4873B26A1B811006574D9 /* Debug */,
-				04E4873C26A1B811006574D9 /* Release */,
+				0B37358226CE9E8D002096D0 /* Debug */,
+				0B37358326CE9E8D002096D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		04E4873D26A1B811006574D9 /* Build configuration list for PBXNativeTarget "GuessTheFlagTests" */ = {
+		0B37358426CE9E8D002096D0 /* Build configuration list for PBXNativeTarget "Day25Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				04E4873E26A1B811006574D9 /* Debug */,
-				04E4873F26A1B811006574D9 /* Release */,
+				0B37358526CE9E8D002096D0 /* Debug */,
+				0B37358626CE9E8D002096D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		04E4874026A1B811006574D9 /* Build configuration list for PBXNativeTarget "GuessTheFlagUITests" */ = {
+		0B37358726CE9E8D002096D0 /* Build configuration list for PBXNativeTarget "Day25UITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				04E4874126A1B811006574D9 /* Debug */,
-				04E4874226A1B811006574D9 /* Release */,
+				0B37358826CE9E8D002096D0 /* Debug */,
+				0B37358926CE9E8D002096D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 04E4870D26A1B80F006574D9 /* Project object */;
+	rootObject = 0B37355426CE9E73002096D0 /* Project object */;
 }
