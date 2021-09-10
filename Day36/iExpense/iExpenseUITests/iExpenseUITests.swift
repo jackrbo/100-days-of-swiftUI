@@ -1,14 +1,13 @@
 //
-//  WeSplitUITests.swift
-//  WeSplitUITests
+//  iExpenseUITests.swift
+//  iExpenseUITests
 //
-//  Created by Richard-Bollans, Jack on 13.8.2021.
+//  Created by Richard-Bollans, Jack on 3.9.2021.
 //
 
 import XCTest
 
-
-class WeSplitUITests: XCTestCase {
+class iExpenseUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
