@@ -1,14 +1,14 @@
 //
-//  WeSplitTests.swift
-//  WeSplitTests
+//  iExpenseTests.swift
+//  iExpenseTests
 //
-//  Created by Richard-Bollans, Jack on 13.8.2021.
+//  Created by Richard-Bollans, Jack on 3.9.2021.
 //
 
 import XCTest
-@testable import WeSplit
+@testable import iExpense
 
-class WeSplitTests: XCTestCase {
+class iExpenseTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -19,8 +19,8 @@ class WeSplitTests: XCTestCase {
     }
 
     func testExample() throws {
-        let app = XCUIApplication()
-        app.launch()
+        // This is an example of a functional test case.
+        // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
 
     func testPerformanceExample() throws {
