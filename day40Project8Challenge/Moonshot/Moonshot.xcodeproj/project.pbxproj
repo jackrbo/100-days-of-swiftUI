@@ -118,6 +118,8 @@
 				0BA4F95226EE489A0007603E /* Mission.swift */,
 				0BA4F91F26EE346D0007603E /* Assets.xcassets */,
 				0BA4F92426EE346D0007603E /* Info.plist */,
+				0BA4F94A26EE45250007603E /* astronauts.json */,
+				0BA4F94B26EE45250007603E /* missions.json */,
 				0BA4F92126EE346D0007603E /* Preview Content */,
 			);
 			path = Moonshot;
@@ -127,8 +129,6 @@
 			isa = PBXGroup;
 			children = (
 				0BA4F92226EE346D0007603E /* Preview Assets.xcassets */,
-				0BA4F94A26EE45250007603E /* astronauts.json */,
-				0BA4F94B26EE45250007603E /* missions.json */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
