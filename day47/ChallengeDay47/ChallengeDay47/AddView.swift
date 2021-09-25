@@ -49,13 +49,6 @@ struct AddView: View {
             })
         }
     }
-    
-    func save() {
-        let encoder = JSONEncoder()
-        let data = encoder.encode(activities)
-        
-    }
-    
 }
 
 

@@ -10,7 +10,7 @@ import SwiftUI
 struct ActivityView: View {
     
     
-    var activity: Activity
+    @Binding var activity: Activity
     @State private var additionalCompletions = 0
     @State private var showingAlert = false
     
@@ -26,52 +26,47 @@ struct ActivityView: View {
     var body: some View {
         NavigationView {
             VStack(alignment: .leading, spacing: 10) {
-                Form{
+                Form {
                     Section(header: Text("Description:")) {
                         Text(activity.desc)
                     }
                     Section(header: Text("Sessions done:")){
                         Text("\(totalCompletions)")
                     }
-                    
                 }
-                    
                 
-                    HStack {
-                        Spacer()
-                        Button(action: {
-                            if activity.numberOfCompletions + additionalCompletions == 0 {
-                                return
-                            }
-                            additionalCompletions -= 1
-                            
-                        }) {
-                            Image(systemName: "minus")
-                                .frame(width: 100, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                                .background(Color.primary)
-                                .clipShape(Capsule())
+                HStack {
+                    Spacer()
+                    
+                    Button(action: {
+                        if activity.numberOfCompletions + additionalCompletions == 0 {
+                            return
                         }
-                        .padding(.all)
+                        additionalCompletions -= 1
                         
-                        Spacer()
-                        Button(action: {
-                                additionalCompletions += 1
-                        }) {
-                            Image(systemName: "plus")
-                                .frame(width: 100, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                                .background(Color.primary)
-                                .clipShape(Capsule())
-                                
-                        }
-                        .padding(.all)
-                        
-                        Spacer()
+                    }) {
+                        Image(systemName: "minus")
+                            .frame(width: 100, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                            .background(Color.primary)
+                            .clipShape(Capsule())
                     }
-                 
-                
-                
+                    .padding(.all)
                     
-                
+                    Spacer()
+                    
+                    Button(action: {
+                            additionalCompletions += 1
+                    }) {
+                        Image(systemName: "plus")
+                            .frame(width: 100, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                            .background(Color.primary)
+                            .clipShape(Capsule())
+                            
+                    }
+                    .padding(.all)
+                    
+                    Spacer()
+                }
             }
             .navigationTitle(Text(activity.name))
         }
@@ -90,6 +85,6 @@ struct ActivityView: View {
 struct SwiftUIView_Previews: PreviewProvider {
     static var previews: some View {
         let activity = Activity(name: "my Activity", desc: "This is a new activity. with a very long description.\nokokokokokokokokoko\nokokokokokokokokoko\nokokokokokokokokoko\nokokokokokokokokoko\nokokokokokokokokoko\nokokokokokokokokoko\nokokokokokokokokoko\nokokokokokokokokoko\nokokokokokokokokoko\nokokokokokokokokoko\nokokokokokokokokoko\nokokokokokokokokoko\nokokokokokokokokoko\n", numberOfCompletions: 0)
-        ActivityView(activity: activity)
+        ActivityView(activity: .constant(activity))
     }
 }

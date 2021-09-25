@@ -15,9 +15,9 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             List {
-                ForEach(activities.items) { activity in
-                    NavigationLink(destination: ActivityView(activity: activity)) {
-                        Text(activity.name)
+                ForEach(activities.items.indices, id: \.self) { index in
+                    NavigationLink(destination: ActivityView(activity: $activities.items[index])) {
+                        Text(activities.items[index].name)
                     }
                 }
                 .onDelete(perform: removeItems)
@@ -34,7 +34,6 @@ struct ContentView: View {
         .sheet(isPresented: $showingAddActivity) {
             AddView(activities: activities)
         }
-        
     }
     
     func removeItems(at offsets: IndexSet) {
