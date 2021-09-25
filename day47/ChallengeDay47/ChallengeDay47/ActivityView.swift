@@ -34,7 +34,8 @@ struct ActivityView: View {
                         Text("\(totalCompletions)")
                     }
                 }
-                
+                Text("Increase or decrease amount")
+                    .padding()
                 HStack {
                     Spacer()
                     
@@ -53,7 +54,7 @@ struct ActivityView: View {
                     .padding(.all)
                     
                     Spacer()
-                    
+                        
                     Button(action: {
                             additionalCompletions += 1
                     }) {
@@ -67,6 +68,7 @@ struct ActivityView: View {
                     
                     Spacer()
                 }
+                
             }
             .navigationTitle(Text(activity.name))
         }
