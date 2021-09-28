@@ -41,6 +41,10 @@ struct MainView: View {
                         }
                     }
                 }
+                
+                Section {
+                    NavigationLink("Delivery details", destination: AddressView(order: order))
+                }
             }
             .navigationTitle("Cupcake Corner")
         }
