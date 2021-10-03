@@ -85,7 +85,7 @@ struct CheckoutView: View {
                 return
             }
             DispatchQueue.main.async {
-                confirmationMessage = "Your order for \(decodedOrder.quantity)x \(Order.types[decodedOrder.type].lowercased()) cupcakes is on its way! To  \(decodedOrder.name) at address \(decodedOrder.streetAddress), \(decodedOrder.city), \(decodedOrder.zip)"
+                confirmationMessage = "Your order for \(decodedOrder.quantity)x \(Order.types[decodedOrder.type].lowercased()) cupcakes is on its way! To \(decodedOrder.name) at address \(decodedOrder.streetAddress), \(decodedOrder.city), \(decodedOrder.zip)"
                 showAlert = true
                 activeAlert = .confirmation
             }

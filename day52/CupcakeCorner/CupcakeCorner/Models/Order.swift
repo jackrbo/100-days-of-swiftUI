@@ -35,7 +35,7 @@ class OrderModel: ObservableObject, Codable {
 }
 
 struct Order: Codable {
-    static var types = ["Vanilla", "Strawberry", "Chocloate", "Rainbow"]
+    static var types = ["Vanilla", "Strawberry", "Chocolate", "Rainbow"]
     var type = 0
     var quantity = 3
     
