@@ -12,7 +12,7 @@ enum ActiveAlert {
 }
 
 struct CheckoutView: View {
-    @ObservedObject var order: Order
+    @ObservedObject var model: OrderModel
     
     
     @State private var confirmationMessage = ""
@@ -28,7 +28,7 @@ struct CheckoutView: View {
                         .scaledToFit()
                         .frame(width: geo.size.width)
                     
-                    Text("Your total is \(self.order.cost, specifier: "%.2f")")
+                    Text("Your total is \(self.model.order.cost, specifier: "%.2f")")
                         .font(.title)
                     
                     Button("Place Order") {
@@ -54,7 +54,7 @@ struct CheckoutView: View {
     
     func placeOrder() {
         let encoder = JSONEncoder()
-        guard let encoded = try? encoder.encode(order) else {
+        guard let encoded = try? encoder.encode(model.order) else {
             print("Failed to encode order")
             return
         }
@@ -67,7 +67,7 @@ struct CheckoutView: View {
         
         URLSession.shared.dataTask(with: request) {
             data, response, error in
-            if let error = error {
+            if error != nil {
                 showAlert = true
                 activeAlert = .error
                 return
@@ -94,10 +94,9 @@ struct CheckoutView: View {
 }
 
 struct CheckoutView_Previews: PreviewProvider {
-    let order = Order()
     static var previews: some View {
         NavigationView {
-            CheckoutView(order: Order())
+            CheckoutView(model: OrderModel())
         }
     }
 }
