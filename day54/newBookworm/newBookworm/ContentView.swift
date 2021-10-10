@@ -12,7 +12,8 @@ struct ContentView: View {
     @Environment(\.managedObjectContext) private var viewContext
     
     @FetchRequest(entity: Book.entity(),
-        sortDescriptors: [],
+                  sortDescriptors: [NSSortDescriptor(keyPath: \Book.title, ascending: true),
+                                    NSSortDescriptor(keyPath: \Book.author, ascending: true)],
         animation: .default)
     private var books: FetchedResults<Book>
     
@@ -22,16 +23,33 @@ struct ContentView: View {
     
     var body: some View {
         NavigationView {
-            Text("Count: \(books.count)")
-                .navigationBarTitle("BookWorm")
-                .navigationBarItems(trailing: Button(action: {
-                    self.showingAddScreen.toggle()
-                }) {
-                    Image(systemName: "plus")
-                })
-                .sheet(isPresented: $showingAddScreen) {
-                    AddBookView().environment(\.managedObjectContext, viewContext)
+            List {
+                ForEach(books, id: \.self) { book in
+                    NavigationLink(destination: DetailView(book: book)) {
+                        EmojiRatingView(rating: book.rating)
+                            .font(.largeTitle)
+                        
+                        VStack(alignment: .leading) {
+                            Text(book.title ?? "Unknown Title")
+                                .font(.headline)
+                            Text(book.author ?? "Unknown Author")
+                                .foregroundColor(.secondary)
+                        }
+                    }
                 }
+                .onDelete(perform: deleteBooks)
+
+            }
+            .navigationBarTitle("BookWorm")
+            .navigationBarItems(trailing: Button(action: {
+                self.showingAddScreen.toggle()
+            }) {
+                Image(systemName: "plus")
+            })
+            .sheet(isPresented: $showingAddScreen) {
+                AddBookView().environment(\.managedObjectContext, viewContext)
+            }
+            .navigationBarItems(leading: EditButton())
                 
             
         }
@@ -39,6 +57,14 @@ struct ContentView: View {
         
     }
 
+    func deleteBooks(at offsets: IndexSet) {
+        for offset in offsets {
+            let book = books[offset]
+            viewContext.delete(book)
+            
+        }
+        try? viewContext.save()
+    }
     
 }
 
