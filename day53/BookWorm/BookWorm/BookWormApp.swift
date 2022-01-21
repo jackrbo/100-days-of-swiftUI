@@ -2,18 +2,19 @@
 //  BookwormApp.swift
 //  Bookworm
 //
-//  Created by Richard-Bollans, Jack on 16/01/2022.
+//  Created by Jack on 8.10.2021.
 //
 
 import SwiftUI
 
 @main
 struct BookwormApp: App {
-    @StateObject private var dataConrtoller = DataController()
+    let persistenceController = PersistenceController.shared
+
     var body: some Scene {
         WindowGroup {
             ContentView()
-                .environment(\.managedObjectContext, dataConrtoller.container.viewContext)
+                .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
 }
