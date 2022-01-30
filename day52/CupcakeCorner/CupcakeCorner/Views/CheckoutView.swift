@@ -23,7 +23,7 @@ struct CheckoutView: View {
         GeometryReader { geo in
             ScrollView {
                 VStack {
-                    Image("cupckes")
+                    Image("cupcakes")
                         .resizable()
                         .scaledToFit()
                         .frame(width: geo.size.width)
