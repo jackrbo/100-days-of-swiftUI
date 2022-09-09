@@ -43,6 +43,7 @@ struct ContentView: View {
             return }
         do {
             let (data, _) = try await URLSession.shared.data(from: url)
+            
             let decoder = JSONDecoder()
             decoder.dateDecodingStrategy = .iso8601
             if let decodedData = try? decoder.decode([User].self, from: data)  {
@@ -53,9 +54,6 @@ struct ContentView: View {
         } catch {
             print("Invalid data")
         }
-
-        
-        
     }
 }
 

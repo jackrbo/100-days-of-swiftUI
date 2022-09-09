@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B1E749B27AADFB0009C378E /* Day61CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0B1E749927AADFB0009C378E /* Day61CoreData.xcdatamodeld */; };
+		0B1E74BD27AAE497009C378E /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1E74BC27AAE497009C378E /* DataController.swift */; };
+		0B1E74C227AAE718009C378E /* CachedFriend+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1E74BE27AAE718009C378E /* CachedFriend+CoreDataClass.swift */; };
+		0B1E74C327AAE718009C378E /* CachedFriend+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1E74BF27AAE718009C378E /* CachedFriend+CoreDataProperties.swift */; };
+		0B1E74C427AAE718009C378E /* CachedUser+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1E74C027AAE718009C378E /* CachedUser+CoreDataClass.swift */; };
+		0B1E74C527AAE718009C378E /* CachedUser+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1E74C127AAE718009C378E /* CachedUser+CoreDataProperties.swift */; };
 		0B92B5E927A6A0F900851851 /* Day60ChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B92B5E827A6A0F900851851 /* Day60ChallengeApp.swift */; };
 		0B92B5EB27A6A0F900851851 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B92B5EA27A6A0F900851851 /* ContentView.swift */; };
 		0B92B5ED27A6A0FC00851851 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B92B5EC27A6A0FC00851851 /* Assets.xcassets */; };
@@ -17,6 +23,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B1E749A27AADFB0009C378E /* Day61CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Day61CoreData.xcdatamodel; sourceTree = "<group>"; };
+		0B1E74BC27AAE497009C378E /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		0B1E74BE27AAE718009C378E /* CachedFriend+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CachedFriend+CoreDataClass.swift"; sourceTree = "<group>"; };
+		0B1E74BF27AAE718009C378E /* CachedFriend+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CachedFriend+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		0B1E74C027AAE718009C378E /* CachedUser+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CachedUser+CoreDataClass.swift"; sourceTree = "<group>"; };
+		0B1E74C127AAE718009C378E /* CachedUser+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CachedUser+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		0B92B5E527A6A0F900851851 /* Day60Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Day60Challenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B92B5E827A6A0F900851851 /* Day60ChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day60ChallengeApp.swift; sourceTree = "<group>"; };
 		0B92B5EA27A6A0F900851851 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -41,6 +53,10 @@
 		0B92B5DC27A6A0F800851851 = {
 			isa = PBXGroup;
 			children = (
+				0B1E74BE27AAE718009C378E /* CachedFriend+CoreDataClass.swift */,
+				0B1E74BF27AAE718009C378E /* CachedFriend+CoreDataProperties.swift */,
+				0B1E74C027AAE718009C378E /* CachedUser+CoreDataClass.swift */,
+				0B1E74C127AAE718009C378E /* CachedUser+CoreDataProperties.swift */,
 				0B92B5E727A6A0F900851851 /* Day60Challenge */,
 				0B92B5E627A6A0F900851851 /* Products */,
 			);
@@ -57,8 +73,10 @@
 		0B92B5E727A6A0F900851851 /* Day60Challenge */ = {
 			isa = PBXGroup;
 			children = (
+				0B1E74BC27AAE497009C378E /* DataController.swift */,
 				0B92B5E827A6A0F900851851 /* Day60ChallengeApp.swift */,
 				0B92B5EA27A6A0F900851851 /* ContentView.swift */,
+				0B1E749927AADFB0009C378E /* Day61CoreData.xcdatamodeld */,
 				0B92B5FA27A6B1D500851851 /* DetailView.swift */,
 				0B92B5F627A6A15D00851851 /* Friend.swift */,
 				0B92B5F827A6A19700851851 /* User.swift */,
@@ -147,9 +165,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B92B5F927A6A19700851851 /* User.swift in Sources */,
+				0B1E74C327AAE718009C378E /* CachedFriend+CoreDataProperties.swift in Sources */,
+				0B1E74C527AAE718009C378E /* CachedUser+CoreDataProperties.swift in Sources */,
 				0B92B5F727A6A15D00851851 /* Friend.swift in Sources */,
+				0B1E74BD27AAE497009C378E /* DataController.swift in Sources */,
+				0B1E749B27AADFB0009C378E /* Day61CoreData.xcdatamodeld in Sources */,
 				0B92B5EB27A6A0F900851851 /* ContentView.swift in Sources */,
+				0B1E74C427AAE718009C378E /* CachedUser+CoreDataClass.swift in Sources */,
 				0B92B5FB27A6B1D500851851 /* DetailView.swift in Sources */,
+				0B1E74C227AAE718009C378E /* CachedFriend+CoreDataClass.swift in Sources */,
 				0B92B5E927A6A0F900851851 /* Day60ChallengeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,7 +305,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Day60Challenge/Preview Content\"";
-				DEVELOPMENT_TEAM = 6KALSAFZJC;
+				DEVELOPMENT_TEAM = 9FUZ3GG7T7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -294,7 +318,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.f-secure.jackstuff.day61";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.f-secure.jackstuff.Day60Challenge";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -310,7 +334,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Day60Challenge/Preview Content\"";
-				DEVELOPMENT_TEAM = 6KALSAFZJC;
+				DEVELOPMENT_TEAM = 9FUZ3GG7T7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -323,7 +347,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.f-secure.jackstuff.day61";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.f-secure.jackstuff.Day60Challenge";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -353,6 +377,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0B1E749927AADFB0009C378E /* Day61CoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0B1E749A27AADFB0009C378E /* Day61CoreData.xcdatamodel */,
+			);
+			currentVersion = 0B1E749A27AADFB0009C378E /* Day61CoreData.xcdatamodel */;
+			path = Day61CoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 0B92B5DD27A6A0F800851851 /* Project object */;
 }

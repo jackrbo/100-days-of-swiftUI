@@ -1,12 +1,14 @@
 import UIKit
+import Foundation
+let timeRemainingInSeconds = 3
+let date = Date().timeIntervalSince1970
+let timeToLock = date + Double(timeRemainingInSeconds)
+extension Bool {
+    var intValue: Int {
+        self ? 1 : 0
+    }
+}
 
-var greeting = "Hello, playground"
-let date = Date()
-let calendar = Calendar.current
-let day = calendar.component(.day, from: date)
-//let month = calendar.component(., from: <#T##Date#>)
-
-
-let formatter = DateFormatter()
-formatter.dateStyle = .medium
-formatter.string(from: date)
+if true.intValue == 1 {
+    print("E")
+}
