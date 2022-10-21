@@ -1,32 +1,31 @@
-import UIKit
+
 import Foundation
-import NaturalLanguage
+import AppKit
 
-let text = "kissassa"
-let range: Range<String.Index> = text.startIndex..<text.endIndex
-let tagger = NLTagger(tagSchemes: [.lemma])
-//tagger.setLanguage(.italian, range: range)
-tagger.string = text
-                   
 
-//let orthography = NSOrthography.defaultOrthography(forLanguage: "fi-FI")
-//tagger.setOrthography(orthography, range: range)
 
-tagger.enumerateTags(in: text.startIndex..<text.endIndex, unit: .word, scheme: .lemma) { tag, range in
-   let stemForm = tag?.rawValue ?? String(text[range])
-   print(stemForm, terminator: "")
-   return true
+func waitFor(timeout: Double, debugString: String = "", condition: () -> Bool ) -> Bool {
+    let date = Date()
+    if debugString != "" {  print(debugString) }
+    while !condition() && Date() < date + timeout {
+        usleep(UInt32(0.1 * 1000000))
+    }
+    return condition()
 }
 
-print(tagger.dominantLanguage?.rawValue)
 
-let tokenizer = NLTokenizer(unit: .sentence)
-tokenizer.setLanguage(.finnish)
-tokenizer.string = text
+func isAppRunning(bundleIdentifier: String) -> Bool {
+    RunLoop.main.run(mode: .default, before: Date())
+    return NSWorkspace.shared.runningApplications.first(where: { $0.bundleIdentifier == bundleIdentifier }) != nil
+}
 
-let tokens = tokenizer.tokens(for: text.startIndex..<text.endIndex)
-
-
-let finnish = NLLanguageRecognizer.dominantLanguage(for: text)
-
+Date().formatted(date: .omitted, time: .complete)
+usleep(UInt32(0.1 * 1000000))
+Date().formatted(date: .omitted, time: .complete)
+sleep(1)
+Date().formatted(date: .omitted, time: .complete)
+_ = waitFor(timeout: 30) {
+    print("no")
+  return isAppRunning(bundleIdentifier: "com.f-secure.fscunifiedui")
+}
 
